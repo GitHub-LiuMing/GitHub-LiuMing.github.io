@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2Fposts%2F1243066710%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[Hexo搭建博客完整流程（一）]]></title>
     <url>%2Fposts%2F1014861683%2F</url>
     <content type="text"><![CDATA[在使用Hexo搭建博客之前，先来了解一下什么是Hexo？ Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 安装node下载# wget https://nodejs.org/dist/v12.10.0/node-v12.10.0-linux-x64.tar.xz 解压# tar xf node-v12.10.0-linux-x64.tar.xz 软连接 解压文件的 bin 目录底下包含了 node、npm 等命令，我们可以使用 ln 命令来设置软连接# ln -s /usr/local/blog/node/bin/npm /usr/local/bin/# ln -s /usr/local/blog/node/bin/node /usr/local/bin/路径需根据自己文件的路径设置 查看node版本# node --version git安装使用yum命令安装git-core# yum install git-core 查看git版本# git version 安装hexo下载Hexo# npm install hexo-cli -g 查看Hexo版本hexo version 设置环境# ln -s /usr/local/blog/node/bin/hexo /usr/local/bin/ 生成站点目录# hexo init &lt;folder&gt;# cd &lt;folder&gt;# npm install在第一步”hexo init “完成以后可能会出现报错，无须在意，按顺序执行完所有步骤以后即可。 开放4000端口 （未必每个人都能用上，可按需跳过该步骤） 查看防火墙状态# firewall-cmd --state 如果返回not running，代表防火墙没有启动 检查防火墙启动状态： # systemctl status firewalld dead状态，即防火墙未开启 开启防火墙： # systemctl start firewalld 关闭防火墙： # systemctl stop firewalld 添加端口# firewall-cmd --zone=public --add-port=4000/tcp --permanent 重启防火墙# firewall-cmd --reload 查看端口状态# firewall-cmd --zone=public --query-port=4000/tcp 生成网站页面# hexo generator简写：# hexo g 会生成public文件，该文件就是生成的网站每一次写作完成以后都要执行该指令 启动hexo# hexo server简写：# hexo s 打开博客http://localhost:4000]]></content>
       <categories>
         <category>Hexo</category>
       </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2Fposts%2F1243066710%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
   </entry>
 </search>

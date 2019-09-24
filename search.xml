@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[谈谈"敏感"这个话题]]></title>
+    <url>%2Fposts%2F3344594636%2F</url>
+    <content type="text"><![CDATA[早上看到了一篇文章，标题是 “你太敏感了”，结合自己最近生活出现的一些小困扰，再加上自己身上的问题，总想告诉自己，别在意一些事情，但是我发现我管不住自己，我客观的认为我在意这些是因为在意她，可是我不能表现的很明显，还是要表现的我理解、我接受，要不然会让身边的人难受，感觉和我在一起很不舒服，可是我该怎么去做才是对的呢？ 我焦虑，可是焦虑只有两种解决方案，一种是把门打开，散散味。一种是把门关上，两耳不闻窗外事。 女人只能看到一个男人的外表，但是并不了解他真实的内心，只有男人更了解男人。 希望未来的某一天，当你看到这篇文章的时候，能理解我的感受吧！ “敏感”这个中性词好像变成了贬义的存在，而大家也都习惯性地给他人贴上这类标签。 当有人提出困惑或向我们寻求解释时，如果我们直接回复”你太敏感了”，就相当于粗暴结束了对话。因为这句话背后的潜台词其实是：“都怪你自己太敏感才造成了这些困扰。”这相当于直接否定了对方的困惑和感受。 如果对方是我们在乎的人，为何不愿意花功夫去想想，TA是因为什么才会有这样的困惑与感受呢？ 也许我们轻飘飘的一句话，会让对方过分自省变得更加小心翼翼。也许我们粗暴的定义，会成为了压倒对方的最后一根稻草。 我们应当谨慎使用”你太敏感了”，这不只一种自以为是的偏见，也是一种软暴力。很多时候正是因为对方保留了一份敏感，我们的悲喜与窘迫才会被看在眼里，也在艰难时刻得到了关怀与照顾。其实完全不必将所有的锅都甩给敏感，更不用视敏感为洪水猛兽人格缺陷，有时候，就算敏感一点又何妨呢？]]></content>
+      <categories>
+        <category>庸人俗事</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[Hexo搭建博客完整流程（一）]]></title>
     <url>%2Fposts%2F1014861683%2F</url>
     <content type="text"><![CDATA[在使用Hexo搭建博客之前，先来了解一下什么是Hexo？ Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 安装node下载# wget https://nodejs.org/dist/v12.10.0/node-v12.10.0-linux-x64.tar.xz 解压# tar xf node-v12.10.0-linux-x64.tar.xz 软连接 解压文件的 bin 目录底下包含了 node、npm 等命令，我们可以使用 ln 命令来设置软连接# ln -s /usr/local/blog/node/bin/npm /usr/local/bin/# ln -s /usr/local/blog/node/bin/node /usr/local/bin/路径需根据自己文件的路径设置 查看node版本# node --version git安装使用yum命令安装git-core# yum install git-core 查看git版本# git version 安装hexo下载Hexo# npm install hexo-cli -g 查看Hexo版本hexo version 设置环境# ln -s /usr/local/blog/node/bin/hexo /usr/local/bin/ 生成站点目录# hexo init &lt;folder&gt;# cd &lt;folder&gt;# npm install在第一步”hexo init “完成以后可能会出现报错，无须在意，按顺序执行完所有步骤以后即可。 开放4000端口 （未必每个人都能用上，可按需跳过该步骤） 查看防火墙状态# firewall-cmd --state 如果返回not running，代表防火墙没有启动 检查防火墙启动状态： # systemctl status firewalld dead状态，即防火墙未开启 开启防火墙： # systemctl start firewalld 关闭防火墙： # systemctl stop firewalld 添加端口# firewall-cmd --zone=public --add-port=4000/tcp --permanent 重启防火墙# firewall-cmd --reload 查看端口状态# firewall-cmd --zone=public --query-port=4000/tcp 生成网站页面# hexo generator简写：# hexo g 会生成public文件，该文件就是生成的网站每一次写作完成以后都要执行该指令 启动hexo# hexo server简写：# hexo s 打开博客http://localhost:4000]]></content>

@@ -1,24 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[谈谈"敏感"这个话题]]></title>
-    <url>%2Fposts%2F3344594636%2F</url>
-    <content type="text"><![CDATA[早上看到了一篇文章，标题是 “你太敏感了”，结合自己最近生活出现的一些小困扰，再加上自己身上的问题，总想告诉自己，别在意一些事情，但是我发现我管不住自己，我客观的认为我在意这些是因为在意她，可是我不能表现的很明显，还是要表现的我理解、我接受，要不然会让身边的人难受，感觉和我在一起很不舒服，可是我该怎么去做才是对的呢？ 我焦虑，可是焦虑只有两种解决方案，一种是把门打开，散散味。一种是把门关上，两耳不闻窗外事。 女人只能看到一个男人的外表，但是并不了解他真实的内心，只有男人更了解男人。 希望未来的某一天，当你看到这篇文章的时候，能理解我的感受吧！ “敏感”这个中性词好像变成了贬义的存在，而大家也都习惯性地给他人贴上这类标签。 当有人提出困惑或向我们寻求解释时，如果我们直接回复”你太敏感了”，就相当于粗暴结束了对话。因为这句话背后的潜台词其实是：“都怪你自己太敏感才造成了这些困扰。”这相当于直接否定了对方的困惑和感受。 如果对方是我们在乎的人，为何不愿意花功夫去想想，TA是因为什么才会有这样的困惑与感受呢？ 也许我们轻飘飘的一句话，会让对方过分自省变得更加小心翼翼。也许我们粗暴的定义，会成为了压倒对方的最后一根稻草。 我们应当谨慎使用”你太敏感了”，这不只一种自以为是的偏见，也是一种软暴力。很多时候正是因为对方保留了一份敏感，我们的悲喜与窘迫才会被看在眼里，也在艰难时刻得到了关怀与照顾。其实完全不必将所有的锅都甩给敏感，更不用视敏感为洪水猛兽人格缺陷，有时候，就算敏感一点又何妨呢？]]></content>
+    <title>谈谈"敏感"这个话题</title>
+    <url>/posts/3344594636/</url>
+    <content><![CDATA[<blockquote>
+<p>　　早上看到了一篇文章，标题是 “你太敏感了”，结合自己最近生活出现的一些小困扰，再加上自己身上的问题，总想告诉自己，别在意一些事情，但是我发现我管不住自己，我客观的认为我在意这些是因为在意她，可是我不能表现的很明显，还是要表现的我理解、我接受，要不然会让身边的人难受，感觉和我在一起很不舒服，可是我该怎么去做才是对的呢？</p>
+<p>　　我焦虑，可是焦虑只有两种解决方案，一种是把门打开，散散味。一种是把门关上，两耳不闻窗外事。</p>
+<p>　　女人只能看到一个男人的外表，但是并不了解他真实的内心，只有男人更了解男人。</p>
+<p>　　希望未来的某一天，当你看到这篇文章的时候，能理解我的感受吧！</p>
+</blockquote>
+<p>“敏感”这个中性词好像变成了贬义的存在，<br>而大家也都习惯性地给他人贴上这类标签。</p>
+<p>当有人提出困惑或向我们寻求解释时，<br>如果我们直接回复”你太敏感了”，<br>就相当于粗暴结束了对话。<br>因为这句话背后的潜台词其实是：<br>“都怪你自己太敏感才造成了这些困扰。”<br>这相当于直接否定了对方的困惑和感受。</p>
+<p>如果对方是我们在乎的人，<br>为何不愿意花功夫去想想，<br>TA是因为什么才会有这样的困惑与感受呢？</p>
+<p>也许我们轻飘飘的一句话，<br>会让对方过分自省变得更加小心翼翼。<br>也许我们粗暴的定义，<br>会成为了压倒对方的最后一根稻草。</p>
+<p>我们应当谨慎使用”你太敏感了”，<br>这不只一种自以为是的偏见，<br>也是一种软暴力。<br>很多时候正是因为对方保留了一份敏感，<br>我们的悲喜与窘迫才会被看在眼里，<br>也在艰难时刻得到了关怀与照顾。<br>其实完全不必将所有的锅都甩给敏感，<br>更不用视敏感为洪水猛兽人格缺陷，<br>有时候，就算敏感一点又何妨呢？</p>
+]]></content>
       <categories>
         <category>庸人俗事</category>
       </categories>
   </entry>
   <entry>
-    <title><![CDATA[Hexo搭建博客完整流程（一）]]></title>
-    <url>%2Fposts%2F1014861683%2F</url>
-    <content type="text"><![CDATA[在使用Hexo搭建博客之前，先来了解一下什么是Hexo？ Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 安装node下载# wget https://nodejs.org/dist/v12.10.0/node-v12.10.0-linux-x64.tar.xz 解压# tar xf node-v12.10.0-linux-x64.tar.xz 软连接 解压文件的 bin 目录底下包含了 node、npm 等命令，我们可以使用 ln 命令来设置软连接# ln -s /usr/local/blog/node/bin/npm /usr/local/bin/# ln -s /usr/local/blog/node/bin/node /usr/local/bin/路径需根据自己文件的路径设置 查看node版本# node --version git安装使用yum命令安装git-core# yum install git-core 查看git版本# git version 安装hexo下载Hexo# npm install hexo-cli -g 查看Hexo版本hexo version 设置环境# ln -s /usr/local/blog/node/bin/hexo /usr/local/bin/ 生成站点目录# hexo init &lt;folder&gt;# cd &lt;folder&gt;# npm install在第一步”hexo init “完成以后可能会出现报错，无须在意，按顺序执行完所有步骤以后即可。 开放4000端口 （未必每个人都能用上，可按需跳过该步骤） 查看防火墙状态# firewall-cmd --state 如果返回not running，代表防火墙没有启动 检查防火墙启动状态： # systemctl status firewalld dead状态，即防火墙未开启 开启防火墙： # systemctl start firewalld 关闭防火墙： # systemctl stop firewalld 添加端口# firewall-cmd --zone=public --add-port=4000/tcp --permanent 重启防火墙# firewall-cmd --reload 查看端口状态# firewall-cmd --zone=public --query-port=4000/tcp 生成网站页面# hexo generator简写：# hexo g 会生成public文件，该文件就是生成的网站每一次写作完成以后都要执行该指令 启动hexo# hexo server简写：# hexo s 打开博客http://localhost:4000]]></content>
+    <title>Hexo搭建博客完整流程（一）</title>
+    <url>/posts/1014861683/</url>
+    <content><![CDATA[<blockquote>
+<blockquote>
+<p>在使用Hexo搭建博客之前，先来了解一下什么是Hexo？</p>
+</blockquote>
+<p><a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
+</blockquote>
+<h3 id="安装node"><a href="#安装node" class="headerlink" title="安装node"></a>安装node</h3><h4 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h4><p><code># wget https://nodejs.org/dist/v12.10.0/node-v12.10.0-linux-x64.tar.xz</code></p>
+<h4 id="解压"><a href="#解压" class="headerlink" title="解压"></a>解压</h4><p><code># tar xf node-v12.10.0-linux-x64.tar.xz</code></p>
+<h4 id="软连接"><a href="#软连接" class="headerlink" title="软连接"></a>软连接</h4><blockquote>
+<p>解压文件的 bin 目录底下包含了 node、npm 等命令，我们可以使用 ln 命令来设置软连接<br><code># ln -s /usr/local/blog/node/bin/npm /usr/local/bin/</code><br><code># ln -s /usr/local/blog/node/bin/node /usr/local/bin/</code><br><strong>路径需根据自己文件的路径设置</strong></p>
+</blockquote>
+<h4 id="查看node版本"><a href="#查看node版本" class="headerlink" title="查看node版本"></a>查看node版本</h4><p><code># node --version</code></p>
+<h3 id="git安装"><a href="#git安装" class="headerlink" title="git安装"></a>git安装</h3><h4 id="使用yum命令安装git-core"><a href="#使用yum命令安装git-core" class="headerlink" title="使用yum命令安装git-core"></a>使用yum命令安装git-core</h4><p><code># yum install git-core</code></p>
+<h4 id="查看git版本"><a href="#查看git版本" class="headerlink" title="查看git版本"></a>查看git版本</h4><p><code># git version</code></p>
+<h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><h4 id="下载Hexo"><a href="#下载Hexo" class="headerlink" title="下载Hexo"></a>下载Hexo</h4><p><code># npm install hexo-cli -g</code></p>
+<h4 id="查看Hexo版本"><a href="#查看Hexo版本" class="headerlink" title="查看Hexo版本"></a>查看Hexo版本</h4><p><code>hexo version</code></p>
+<h4 id="设置环境"><a href="#设置环境" class="headerlink" title="设置环境"></a>设置环境</h4><p><code># ln -s /usr/local/blog/node/bin/hexo /usr/local/bin/</code></p>
+<h4 id="生成站点目录"><a href="#生成站点目录" class="headerlink" title="生成站点目录"></a>生成站点目录<folder></folder></h4><p><code># hexo init &lt;folder&gt;</code><br><code># cd &lt;folder&gt;</code><br><code># npm install</code><br>在第一步”hexo init <folder>“完成以后可能会出现报错，无须在意，按顺序执行完所有步骤以后即可。</folder></p>
+<h3 id="开放4000端口"><a href="#开放4000端口" class="headerlink" title="开放4000端口"></a>开放4000端口</h3><blockquote>
+<p>（未必每个人都能用上，可按需跳过该步骤）</p>
+</blockquote>
+<h4 id="查看防火墙状态"><a href="#查看防火墙状态" class="headerlink" title="查看防火墙状态"></a>查看防火墙状态</h4><p><code># firewall-cmd --state</code><br>　如果返回<strong>not running</strong>，代表防火墙没有启动<br>　　检查防火墙启动状态：<br>  　　　<code># systemctl status firewalld</code><br>     　　　　dead状态，即防火墙未开启<br>　　　开启防火墙：<br>　　　　<code># systemctl start firewalld</code><br>　　　关闭防火墙：<br>　　　　<code># systemctl stop firewalld</code></p>
+<h4 id="添加端口"><a href="#添加端口" class="headerlink" title="添加端口"></a>添加端口</h4><p><code># firewall-cmd --zone=public --add-port=4000/tcp --permanent</code></p>
+<h4 id="重启防火墙"><a href="#重启防火墙" class="headerlink" title="重启防火墙"></a>重启防火墙</h4><p><code># firewall-cmd --reload</code></p>
+<h4 id="查看端口状态"><a href="#查看端口状态" class="headerlink" title="查看端口状态"></a>查看端口状态</h4><p><code># firewall-cmd --zone=public --query-port=4000/tcp</code></p>
+<h3 id="生成网站页面"><a href="#生成网站页面" class="headerlink" title="生成网站页面"></a>生成网站页面</h3><p><code># hexo generator</code><br>简写：<br><code># hexo g</code></p>
+<blockquote>
+<p>会生成public文件，该文件就是生成的网站<br>每一次写作完成以后都要执行该指令</p>
+</blockquote>
+<h3 id="启动hexo"><a href="#启动hexo" class="headerlink" title="启动hexo"></a>启动hexo</h3><p><code># hexo server</code><br>简写：<br><code># hexo s</code> </p>
+<h3 id="打开博客"><a href="#打开博客" class="headerlink" title="打开博客"></a>打开博客</h3><p><a href="http://localhost:4000" target="_blank" rel="noopener"><code>http://localhost:4000</code></a></p>
+]]></content>
       <categories>
         <category>Hexo</category>
       </categories>
   </entry>
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2Fposts%2F1243066710%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+    <title>Hello World</title>
+    <url>/posts/1243066710/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
   </entry>
 </search>
